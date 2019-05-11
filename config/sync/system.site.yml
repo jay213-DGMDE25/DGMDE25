@@ -1,0 +1,14 @@
+uuid: e9c43e5a-e6dc-4ac8-a8bc-cddea3aeb0c9
+name: AnonymousDiner.com
+mail: jay213@anonymousdiner.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
