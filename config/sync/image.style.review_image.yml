@@ -1,0 +1,14 @@
+uuid: 1d326f79-ff9f-45aa-818e-e53698a80595
+langcode: en
+status: true
+dependencies: {  }
+name: review_image
+label: Review_Image
+effects:
+  007850d1-ed74-4af1-a9d1-e1a87e6b3eda:
+    uuid: 007850d1-ed74-4af1-a9d1-e1a87e6b3eda
+    id: image_resize
+    weight: 1
+    data:
+      width: 600
+      height: 400

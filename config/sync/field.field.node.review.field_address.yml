@@ -1,0 +1,21 @@
+uuid: 28ecc665-d2be-498e-9685-052032978c16
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_address
+    - node.type.review
+  module:
+    - text
+id: node.review.field_address
+field_name: field_address
+entity_type: node
+bundle: review
+label: Address
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

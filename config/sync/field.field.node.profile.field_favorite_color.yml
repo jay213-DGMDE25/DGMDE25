@@ -1,0 +1,29 @@
+uuid: 176b3bf5-2a69-4fe4-8c7b-cab6f810fa73
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_favorite_color
+    - node.type.profile
+    - taxonomy.vocabulary.tags
+id: node.profile.field_favorite_color
+field_name: field_favorite_color
+entity_type: node
+bundle: profile
+label: 'Favorite Color'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,38 @@
+uuid: 5b55cb63-b934-4a9c-a0eb-312c66bdd178
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.review.body
+    - field.field.node.review.field_cuisine
+    - field.field.node.review.field_name
+    - field.field.node.review.field_review_date
+    - field.field.node.review.field_review_image
+    - node.type.review
+  module:
+    - text
+    - user
+id: node.review.teaser
+targetEntityType: node
+bundle: review
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_cuisine: true
+  field_name: true
+  field_review_date: true
+  field_review_image: true

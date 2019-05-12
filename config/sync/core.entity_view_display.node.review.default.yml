@@ -1,0 +1,75 @@
+uuid: 7f43fd5b-b317-4b13-9fff-5b6030eee703
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.review.body
+    - field.field.node.review.field_address
+    - field.field.node.review.field_cuisine
+    - field.field.node.review.field_name
+    - field.field.node.review.field_review_date
+    - field.field.node.review.field_review_image
+    - node.type.review
+  module:
+    - datetime
+    - image
+    - text
+    - user
+id: node.review.default
+targetEntityType: node
+bundle: review
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_address:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_cuisine:
+    weight: 6
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_name:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_review_date:
+    weight: 3
+    label: inline
+    settings:
+      timezone_override: America/New_York
+      format_type: html_date
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_review_image:
+    weight: 4
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

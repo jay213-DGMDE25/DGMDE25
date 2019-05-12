@@ -1,0 +1,22 @@
+uuid: bc007073-10ee-4c2d-a726-970c30909e3c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.profile
+  module:
+    - text
+id: node.profile.body
+field_name: body
+entity_type: node
+bundle: profile
+label: Bio
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
