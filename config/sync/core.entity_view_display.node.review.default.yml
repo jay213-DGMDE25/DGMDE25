@@ -27,12 +27,12 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 5
+    weight: 6
     settings: {  }
     third_party_settings: {  }
     region: content
   field_address:
-    weight: 2
+    weight: 4
     label: hidden
     settings: {  }
     third_party_settings: {  }
@@ -47,7 +47,7 @@ content:
     type: entity_reference_label
     region: content
   field_gallery:
-    weight: 6
+    weight: 7
     label: hidden
     settings:
       imagefield_slideshow_style: large
@@ -61,7 +61,7 @@ content:
     type: imagefield_slideshow_field_formatter
     region: content
   field_map:
-    weight: 7
+    weight: 2
     label: hidden
     settings:
       include_map: true
@@ -80,14 +80,14 @@ content:
     type: simple_gmap
     region: content
   field_name:
-    weight: 1
+    weight: 3
     label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_review_date:
-    weight: 3
+    weight: 5
     label: inline
     settings:
       timezone_override: America/New_York
@@ -96,7 +96,7 @@ content:
     type: datetime_default
     region: content
   field_review_image:
-    weight: 4
+    weight: 1
     label: hidden
     settings:
       image_style: ''

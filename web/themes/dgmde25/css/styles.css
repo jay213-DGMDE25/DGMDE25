@@ -108,3 +108,53 @@ a:hover {
 	text-decoration: none; 
     font-size: x-large;
 }
+
+
+
+
+.node__content {
+    margin: 2em;
+}
+
+.field--name-field-review-image {
+    float: left;
+}
+
+.field--name-field-map {
+    float: right;
+}
+
+
+
+.field--name-field-name {
+    padding-top: 1em;
+    clear: both;
+    color: brown;
+	font-family: 'Raleway', cursive;
+    font-size: x-large;
+    text-align: right;
+}
+
+.field--name-field-address {
+    text-align: right;
+}
+
+
+.field--name-body {
+    margin-top: 1em;
+    border-top: 2px solid brown;
+    clear: both;
+}
+
+.field--name-field-gallery {
+    margin: 0 auto;
+    padding-bottom: 2em;
+    align: center;
+    text-align: center;
+    border-bottom: 2px solid brown;
+    
+}
+
+.field--name-field-cuisine {
+    margin-top: 2em;
+}
