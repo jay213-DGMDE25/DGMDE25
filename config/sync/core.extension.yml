@@ -22,6 +22,8 @@ module:
   help: 0
   history: 0
   image: 0
+  imagefield_slideshow: 0
+  libraries: 0
   link: 0
   media: 0
   menu_ui: 0
@@ -33,6 +35,7 @@ module:
   rdf: 0
   search: 0
   shortcut: 0
+  simple_gmap: 0
   system: 0
   taxonomy: 0
   telephone: 0

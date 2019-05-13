@@ -6,10 +6,11 @@ dependencies:
     - field.field.node.review.body
     - field.field.node.review.field_address
     - field.field.node.review.field_cuisine
+    - field.field.node.review.field_gallery
+    - field.field.node.review.field_map
     - field.field.node.review.field_name
     - field.field.node.review.field_review_date
     - field.field.node.review.field_review_image
-    - image.style.thumbnail
     - node.type.review
   module:
     - datetime
@@ -53,6 +54,22 @@ content:
     third_party_settings: {  }
     type: entity_reference_autocomplete
     region: content
+  field_gallery:
+    weight: 13
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_map:
+    weight: 14
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
   field_name:
     weight: 7
     settings:
@@ -70,8 +87,8 @@ content:
   field_review_image:
     weight: 11
     settings:
+      preview_image_style: ''
       progress_indicator: throbber
-      preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
     region: content
