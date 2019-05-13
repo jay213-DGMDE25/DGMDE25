@@ -1,12 +1,11 @@
-body {
-  background-color: white;
-}
+
 
 main {
     display: flex;
 }
 
 .content-wrapper {
+    padding: 1em;
     width: 70%;
 }
 
@@ -19,6 +18,47 @@ header {
 	background-color: tan;
 	color: white;
 }
+
+
+
+body {
+      background-color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+form {
+  	margin: 2em;
+      
+}
+
+h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', cursive;
+}
+
+p {
+  	font-family: 'Raleway', cursive;
+}
+
+header {
+	background-color: tan;
+	color: white;
+}
+header img {
+	padding: 0em;
+	margin: 0;
+}
+a {
+	color: #993333;
+}
+a:hover {
+	text-decoration: none;
+}
+  
+
+
+
 
 .main-navigation nav {
 	background-color: gray;
@@ -35,18 +75,6 @@ header {
 	padding-right: 1em;
 }
 
-.main-navigation nav li:after {
-  content: '';
-  display: inline-block;
-  position: absolute;
-  height: 20px;
-  width: 1px;
-  background: white;
-}
-
-.main-navigation nav li:last-child::after {
-  display: none
-}
 
 
 .main-navigation nav a {
@@ -57,4 +85,26 @@ header {
 }
 .main-navigation nav a:hover {
 	color: gold;
+}
+
+
+.view-content img{
+    float: left;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    clear: both;
+}
+
+.views-row {
+    margin: 1em;
+    padding-bottom: 2em;
+}
+
+
+.view-content a{
+    color: brown;
+	font-family: 'Raleway', cursive;
+	text-decoration: none; 
+    font-size: x-large;
 }

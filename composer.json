@@ -23,6 +23,7 @@
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.6.0",
         "drupal/flexslider": "^2.0@beta",
+        "drupal/google_analytics": "^3.0",
         "drupal/imagefield_slideshow": "^1.8",
         "drupal/pathauto": "^1.4",
         "drupal/simple_gmap": "^1.4",
