@@ -1,0 +1,31 @@
+uuid: 610faef1-2431-430e-b3c1-1ab34771530c
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - statistics
+  theme:
+    - dgmde25
+id: popularcontent
+theme: dgmde25
+region: sidebar_first
+weight: 0
+provider: null
+plugin: statistics_popular_block
+settings:
+  id: statistics_popular_block
+  label: 'Most Popular Reviews'
+  provider: statistics
+  label_display: visible
+  top_day_num: 30
+  top_all_num: 30
+  top_last_num: 4
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      review: review
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
