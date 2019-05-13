@@ -1,3 +1,60 @@
 body {
-  background-color: cornsilk;
+  background-color: white;
+}
+
+main {
+    display: flex;
+}
+
+.content-wrapper {
+    width: 70%;
+}
+
+.side-navigation {
+    width: 25%
+}
+
+
+header {
+	background-color: tan;
+	color: white;
+}
+
+.main-navigation nav {
+	background-color: gray;
+	border-bottom: 2px solid black;
+	padding: 1em;
+}
+.main-navigation nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.main-navigation nav li {
+	display: inline-block;
+	padding-right: 1em;
+}
+
+.main-navigation nav li:after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  height: 20px;
+  width: 1px;
+  background: white;
+}
+
+.main-navigation nav li:last-child::after {
+  display: none
+}
+
+
+.main-navigation nav a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+     padding: 10px 20px;
+}
+.main-navigation nav a:hover {
+	color: gold;
 }
