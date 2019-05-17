@@ -4,6 +4,7 @@ status: true
 dependencies:
   module:
     - ctools
+    - node
     - statistics
   theme:
     - dgmde25
@@ -18,13 +19,24 @@ settings:
   label: 'Most Popular Reviews'
   provider: statistics
   label_display: visible
-  top_day_num: 30
-  top_all_num: 30
+  top_day_num: 4
+  top_all_num: 0
   top_last_num: 4
 visibility:
   'entity_bundle:node':
     id: 'entity_bundle:node'
     bundles:
+      news: news
+      page: page
+      review: review
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  node_type:
+    id: node_type
+    bundles:
+      news: news
+      page: page
       review: review
     negate: false
     context_mapping:

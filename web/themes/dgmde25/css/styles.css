@@ -140,9 +140,14 @@ a:hover {
 }
 
 
+.field--name-field-review-date {
+   border-bottom: 2px solid brown;
+   padding-bottom: 1em;
+}
+
 .field--name-body {
     margin-top: 1em;
-    border-top: 2px solid brown;
+   
     clear: both;
 }
 
@@ -157,4 +162,9 @@ a:hover {
 
 .field--name-field-cuisine {
     margin-top: 2em;
+}
+
+
+.front .node-title {
+display:none;
 }
