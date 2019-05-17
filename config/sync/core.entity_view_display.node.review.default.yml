@@ -11,6 +11,7 @@ dependencies:
     - field.field.node.review.field_name
     - field.field.node.review.field_review_date
     - field.field.node.review.field_review_image
+    - field.field.node.review.field_telephone
     - node.type.review
   module:
     - datetime
@@ -27,7 +28,7 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 6
+    weight: 7
     settings: {  }
     third_party_settings: {  }
     region: content
@@ -39,7 +40,7 @@ content:
     type: text_default
     region: content
   field_cuisine:
-    weight: 8
+    weight: 9
     label: inline
     settings:
       link: true
@@ -47,7 +48,7 @@ content:
     type: entity_reference_label
     region: content
   field_gallery:
-    weight: 7
+    weight: 8
     label: hidden
     settings:
       imagefield_slideshow_style: large
@@ -87,7 +88,7 @@ content:
     type: text_default
     region: content
   field_review_date:
-    weight: 5
+    weight: 6
     label: inline
     settings:
       timezone_override: America/New_York
@@ -103,6 +104,14 @@ content:
       image_link: ''
     third_party_settings: {  }
     type: image
+    region: content
+  field_telephone:
+    weight: 5
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
     region: content
   links:
     weight: 0

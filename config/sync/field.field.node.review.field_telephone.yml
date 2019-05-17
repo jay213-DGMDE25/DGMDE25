@@ -1,0 +1,21 @@
+uuid: b64f58fe-da92-4fd7-9fbd-f47fc9ffbc03
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_telephone
+    - node.type.review
+  module:
+    - telephone
+id: node.review.field_telephone
+field_name: field_telephone
+entity_type: node
+bundle: review
+label: telephone
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

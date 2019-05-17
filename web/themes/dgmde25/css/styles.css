@@ -139,6 +139,11 @@ a:hover {
     text-align: right;
 }
 
+.field--name-field-telephone{
+    font-size: large;
+    text-align: right;
+}
+
 
 .field--name-field-review-date {
    border-bottom: 2px solid brown;
